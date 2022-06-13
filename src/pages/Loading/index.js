@@ -1,11 +1,11 @@
-import {Container, Logo} from "./style";
+import {Container, Content, Logo} from "./style";
 import Background from "../../assets/Pattern.svg"
 import LogoIcon from "../../assets/logo.svg"
 
 function Loading() {
   return (
     <Container>
-      <img src={Background}/>
+      <Content src={Background}/>
       <Logo src={LogoIcon} />
     </Container>
   );
