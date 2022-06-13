@@ -11,8 +11,8 @@ export const Container = styled.body`
 `;
 
 export const Content = styled.img`
-    position: absolute;
-    width: 80%;
+  position: absolute;
+  width: 80%;
 `;
 
 export const Logo = styled.img`
@@ -21,15 +21,15 @@ export const Logo = styled.img`
 
   @keyframes scale {
     0% {
-        transform: scale(1);
+      transform: scale(1);
     }
 
     50% {
-        transform: scale(1.1);
+      transform: scale(1.1);
     }
 
     100% {
-        transform: scale(1);
+      transform: scale(1);
     }
   }
 `;
