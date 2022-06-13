@@ -8,10 +8,11 @@ export const Container = styled.body`
   margin: 0;
   height: 100vh;
   background-color: #282828;
+`;
 
-  img {
+export const Content = styled.img`
     position: absolute;
-  }
+    width: 80%;
 `;
 
 export const Logo = styled.img`
