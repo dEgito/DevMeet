@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Routes as Switch } from "react-router-dom";
 import Getting from "./pages/Getting";
 import Loading from "./pages/Loading";
-import Events from "./pages/Events";
+import AvaliableEvents from "./pages/AvaliableEvents";
 
 const Routes = () => {
   return (
@@ -9,7 +9,7 @@ const Routes = () => {
       <Switch>
         <Route exact path="/getting" element={<Getting />} />
         <Route exact path="/" element={<Loading />} />
-        <Route exact path="/events" element={<Events />} />
+        <Route exact path="/events" element={<AvaliableEvents />} />
       </Switch>
     </Router>
   );
