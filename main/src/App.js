@@ -1,9 +1,8 @@
-import Loading from "./pages/Loading";
-
+import Routes from "./routes";
 
 function App() {
   return (
-    <Loading />
+    <Routes />
   );
 }
 
