@@ -9,7 +9,7 @@ export const BackButton = styled.button`
   height: 3rem;
   border: none;
   border-radius: 8px;
-  background-color: #ff5100;
+  background-color: var(--orange-500);
   transition: all 1s ease-in-out;
 
   &:hover {
