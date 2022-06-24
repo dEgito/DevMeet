@@ -1,35 +1,33 @@
 import { Content, Microtext, Button } from "./style";
 import Arrow from "../../../../assets/Arrow.svg";
+import { Link } from "react-router-dom";
 
-function Card () {
-    return (
-        <Content>
-        <div>
-          <strong>02/MAR</strong> - <span>19:00</span>
-        </div>
+function Card({ title, day, hour, description, organizedBy, link }) {
+  return (
+    <Content>
+      <div>
+        <strong>{day}</strong> - <span>{hour}</span>
+      </div>
 
-        <h3>Criando interfacers muito malucas com o figma!</h3>
-        <p>
-          Você pode criar interfaces malucas que dispertam sua criativade.
-          Usando de recursos do próprio figma, como seus plugins.
-        </p>
+      <h3>{title}</h3>
+      <p>{description} </p>
 
-        <Microtext>
-          Organizado por:<strong>Comunidade Ballerini</strong>
-        </Microtext>
+      <Microtext>
+        Organizado por:<strong>{organizedBy}</strong>
+      </Microtext>
 
-        <Microtext>
-          <span>
-            Link do evento:
-            <a href="https://www.google.com"> meet.google/evento-1</a>
-          </span>
+      <Microtext>
+        <span>
+          Link do evento:
+          <a href={link.url}>{link.link}</a>
+        </span>
 
-          <Button>
-            <img src={Arrow} alt="avançar" />
-          </Button>
-        </Microtext>
-      </Content>
-    )
+        <Button>
+          <img src={Arrow} alt="avançar" />
+        </Button>
+      </Microtext>
+    </Content>
+  );
 }
 
 export default Card;
