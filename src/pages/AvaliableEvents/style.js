@@ -12,6 +12,10 @@ export const Container = styled.section`
   font-family: Epilogue, sans-serif;
   color: #ffffff;
 
+  header {
+    margin-bottom: 1rem;
+  }
+
   h1 {
     font-size: 2rem;
   }
@@ -26,5 +30,16 @@ export const Container = styled.section`
       max-width: 300px;
     }
   }
-`;
 
+  > main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 1rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1000px;
+  }
+`;
