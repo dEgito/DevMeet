@@ -9,11 +9,11 @@ function Getting() {
       <header>
         <h1>Olá, Dev!</h1>
         <p>
-          Encontre seu <span> próximo </span> evento de programação!
+          Encontre seu <span> próximo</span> evento de programação!
         </p>
       </header>
       
-      <img src={Person} alt="person"/>
+      <img src={Person} alt="pessoa"/>
       <Button />
     </Container>
   );
