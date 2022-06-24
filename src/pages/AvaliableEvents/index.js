@@ -24,7 +24,7 @@ const cards = [
       day: "01/MAR",
       hour: "10:00",
     },
-    title: "Entendendo o Z-Pattern",
+    title: "Entendendo melhor o Z-Pattern.",
     description:
       "Conheça como o olho humano observa um website a partir dos conceitos hierarquicos do Z-Pattern.",
     organizedBy: "Comunidade Ballerini",
@@ -56,13 +56,13 @@ const cards = [
       day: "01/MAR",
       hour: "10:00",
     },
-    title: "Entendendo o Z-Pattern",
+    title: "Entendendo melhor o Z-Pattern.",
     description:
       "Conheça como o olho humano observa um website a partir dos conceitos hierarquicos do Z-Pattern.",
     organizedBy: "Comunidade Ballerini",
     link: {
       link: "meet.google/evento-4",
-      url: 'https://www.google.com',
+      url: 'https://meet.google.com/',
     },
   },
 ];
