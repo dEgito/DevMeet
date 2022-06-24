@@ -8,19 +8,20 @@ function Card({ title, day, hour, description, organizedBy, link }) {
       <div>
         <strong>{day}</strong> - <span>{hour}</span>
       </div>
-
       <h3>{title}</h3>
       <p>{description} </p>
 
       <Microtext>
-        Organizado por:<strong>{organizedBy}</strong>
+        <p>
+          Organizado por: <strong>{organizedBy}</strong>
+        </p>
       </Microtext>
 
       <Microtext>
-        <span>
+        <p>
           Link do evento:
-          <a href={link.url}>{link.link}</a>
-        </span>
+          <a href={link.url} target="_blank">{link.link}</a>
+        </p>
 
         <Button>
           <img src={Arrow} alt="avançar" />
