@@ -8,7 +8,7 @@ export const Content = styled.div`
   width: 100%;
   min-width: 18.75rem;
   max-width: 20rem;
-  height: 13.75rem;
+  height: 14rem;
   border-radius: 0.5rem;
   background-color: var(--white);
   color: var(--gray-900);
