@@ -8,9 +8,7 @@ export const Container = styled.section`
   margin: 0;
   padding: 1rem;
 
-  background-color: #282828;
-  font-family: Epilogue, sans-serif;
-  color: #ffffff;
+  color: var(--white);
 
   header {
     margin-bottom: 1rem;
