@@ -1,5 +1,7 @@
-import Person from "../../assets/person.svg"
+import Person from "../../assets/person.svg";
 import Button from "./components/Button";
+
+import {Link} from 'react-router-dom'
 
 import { Container } from "./style";
 
@@ -12,9 +14,11 @@ function Getting() {
           Encontre seu <span> próximo</span> evento de programação!
         </p>
       </header>
-      
-      <img src={Person} alt="pessoa"/>
-      <Button />
+
+      <img src={Person} alt="pessoa" />
+      <Link to="/events">
+        <Button />
+      </Link>
     </Container>
   );
 }
