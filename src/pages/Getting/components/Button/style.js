@@ -10,10 +10,9 @@ export const BackButton = styled.button`
   border: none;
   border-radius: 8px;
   background-color: var(--orange-500);
-  transition: all 1s ease-in-out;
 
   &:hover {
-    transform: scale(1.1);
-    transition: all 1s ease-in-out;
+    background-color: var(--orange-300);
+    transition: all .2s ease-in-out;
   }
 `;
