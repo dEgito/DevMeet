@@ -9,15 +9,13 @@ export const Container = styled.section`
   margin: 0;
   padding: 0;
 
-  background-color: #282828;
-  font-family: Epilogue, sans-serif;
-  color: #ffffff;
-
   h1 {
+    color: var(--white);
     font-size: 2.5rem;
   }
 
   p {
+    color: var(--gray-100);
     font-size: 1.5rem;
     width: 100%;
     max-width: 250px;
@@ -28,7 +26,8 @@ export const Container = styled.section`
     }
 
     span {
-      background-color: #ff5100;
+      color: var(--white);
+      background-color: var(--orange-500);
     }
   }
 `;
