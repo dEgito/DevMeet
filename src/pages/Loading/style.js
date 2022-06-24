@@ -7,7 +7,6 @@ export const Container = styled.section`
   justify-content: center;
   margin: 0;
   height: 100vh;
-  background-color: #282828;
 `;
 
 export const Content = styled.img`
@@ -17,7 +16,7 @@ export const Content = styled.img`
 
 export const Logo = styled.img`
   display: flex;
-  animation: scale 2s infinite;
+  animation: scale 1.5s infinite;
 
   @keyframes scale {
     0% {
