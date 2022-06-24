@@ -8,10 +8,13 @@ const GlobalStyle = createGlobalStyle`
         --gray-400: #959595;
         --gray-900: #282828;
 
-        --green-500: rgba(4, 211, 97, 0.2);
+        --green-500: #CDF6DF;
+        --green-700: #B3FAD2;
 
         --orange-300: #FF7B3E;
         --orange-500: #FF5100;
+
+        --secundary-type: Rajdhani, sans;
     }
     :focus {
         outline: transparent;
@@ -22,9 +25,11 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         box-sizing: border-box;
     }
-    html {
+
+    /* html {
         font-size: 87.5%;
-    }
+    } */
+
     body {
         background-color: var(--gray-900);
         color: var(--gray-100);

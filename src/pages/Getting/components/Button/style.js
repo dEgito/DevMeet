@@ -13,6 +13,8 @@ export const BackButton = styled.button`
 
   &:hover {
     background-color: var(--orange-300);
-    transition: all .2s ease-in-out;
+    padding-left: .5rem;
+    box-sizing: border-box;
+    transition: all 1s;
   }
 `;
