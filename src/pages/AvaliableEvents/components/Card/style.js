@@ -9,11 +9,11 @@ export const Content = styled.div`
   min-width: 300px;
   max-width: 320px;
   border-radius: 0.5rem;
-  background-color: #ffffff;
-  color: #282828;
+  background-color: var(--white);
+  color: var(--gray-900);
 
   strong {
-    color: #ff5100;
+    color: var(--orange-500);
     font-weight: 600;
   }
 
@@ -24,7 +24,7 @@ export const Content = styled.div`
 
   p {
     font-size: 0.9rem;
-    color: #959595;
+    color: var(--gray-400);
     max-width: none;
     margin-bottom: 1rem;
   }
@@ -33,14 +33,14 @@ export const Content = styled.div`
 export const Microtext = styled.div`
   font-size: 0.8rem;
   line-height: 2rem;
-  color: #282828;
+  color: var(--gray-900);
   display: flex;
   flex-direction: row;
   align-items: center;
 
   a {
     text-decoration: none;
-    color: #ff5100;
+    color: var(--orange-500);
   }
 `;
 
@@ -54,5 +54,5 @@ export const Button = styled.button`
   height: 1.5rem;
   border-radius: 4px;
   border: none;
-  background-color: rgba(4, 211, 97, 0.2);
+  background-color: var(--green-500);
 `;
