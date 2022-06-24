@@ -7,7 +7,7 @@ const Routes = () => {
   return (
     <Router>
       <Switch>
-        <Route exact path="/getting" element={<Getting />} />
+        <Route exact path="/home" element={<Getting />} />
         <Route exact path="/" element={<Loading />} />
         <Route exact path="/events" element={<AvaliableEvents />} />
       </Switch>
