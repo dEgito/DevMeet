@@ -8,7 +8,9 @@ const GlobalStyle = createGlobalStyle`
         --gray-400: #959595;
         --gray-900: #282828;
 
-        --green-500: rgba(4, 211, 97, 0.2);;
+        --green-500: rgba(4, 211, 97, 0.2);
+
+        --orange-300: #FF7B3E;
         --orange-500: #FF5100;
     }
     :focus {
