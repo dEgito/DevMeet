@@ -23,7 +23,7 @@ function Card({ title, day, hour, description, organizedBy, link }) {
           <a href={link.url} target="_blank">{link.link}</a>
         </p>
 
-        <Link to="/">
+        <Link to="/info">
           <Button>
             <img src={Arrow} alt="avançar" />
           </Button>
