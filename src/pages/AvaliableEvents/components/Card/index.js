@@ -22,8 +22,8 @@ function Card({ title, day, hour, description, organizedBy, link }) {
           Link do evento:
           <a href={link.url} target="_blank">{link.link}</a>
         </p>
+        <Link to="/info">
 
-        <Link to="/">
           <Button>
             <img src={Arrow} alt="avançar" />
           </Button>
